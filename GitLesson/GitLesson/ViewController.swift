@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         print("Hello Git!")
         print("Hello Git2!")
         print("Hello Git3!")
+        view.backgroundColor = .white
     }
 
 
