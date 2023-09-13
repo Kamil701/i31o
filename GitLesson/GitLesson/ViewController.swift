@@ -37,7 +37,6 @@ class ViewController: UIViewController {
             make.top.equalTo(view.safeAreaLayoutGuide).offset(20)
         }
     }
-    
 
 
 }

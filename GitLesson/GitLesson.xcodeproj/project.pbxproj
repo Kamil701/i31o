@@ -14,6 +14,7 @@
 		60887D0D2AB1E05F00D39261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60887D0C2AB1E05F00D39261 /* Assets.xcassets */; };
 		60887D102AB1E05F00D39261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60887D0E2AB1E05F00D39261 /* LaunchScreen.storyboard */; };
 		60887D192AB2031C00D39261 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 60887D182AB2031C00D39261 /* SnapKit */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60887D192AB2031C00D39261 /* SnapKit in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +384,7 @@
 		60887D182AB2031C00D39261 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 60887D172AB2031C00D39261 /* XCRemoteSwiftPackageReference "SnapKit" */;
+
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
