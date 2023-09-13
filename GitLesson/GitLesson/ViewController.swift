@@ -16,11 +16,13 @@ class ViewController: UIViewController {
         print("Hello Git2!")
         print("Hello Git3!")
         view.backgroundColor = .white
+        makeLayout()
+        makeConstraints()
     }
     
     private lazy var textLabel: UILabel = {
         let label = UILabel()
-        label.text = "Hi conflict"
+        label.text = "Hi"
         return label
     }()
     
