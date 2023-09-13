@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
@@ -15,7 +16,28 @@ class ViewController: UIViewController {
         print("Hello Git2!")
         print("Hello Git3!")
         view.backgroundColor = .white
+        makeLayout()
+        makeConstraints()
     }
+    
+    private lazy var textLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Hi"
+        return label
+    }()
+    
+    private func makeLayout() {
+        view.addSubview(textLabel)
+    }
+    
+    private func makeConstraints() {
+        textLabel.snp.makeConstraints { make in
+            make.leading.equalToSuperview().offset(20)
+            make.trailing.equalToSuperview().offset(-20)
+            make.top.equalTo(view.safeAreaLayoutGuide).offset(20)
+        }
+    }
+    
 
 
 }
